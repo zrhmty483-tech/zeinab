@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="پیدا کردن کسب‌وکارهای کوچک، فروشگاه‌های محلی و خدمات مستقل">
+  <title>کسبینو | دنیای کسب‌وکارهای کوچک</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <a class="logo" href="#">کسبینو<span>.</span></a>
+
+    <nav>
+      <a href="#home">خانه</a>
+      <a href="#businesses">کسب‌وکارها</a>
+      <a href="#about">درباره ما</a>
+      <a href="#contact">تماس با ما</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">معرفی کسب‌وکار من</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">از کسب‌وکارهای کوچک حمایت کنیم</span>
+        <h1>کسب‌وکارهای کوچک،<br><span>رویاهای بزرگ</span></h1>
+        <p>
+          بهترین فروشگاه‌ها، خدمات محلی و کسب‌وکارهای مستقل
+          را پیدا کن و از رشد آن‌ها حمایت کن.
+        </p>
+
+        <a href="#businesses" class="primary-button">
+          کشف کسب‌وکارها
+        </a>
+
+        <div class="hero-stats">
+          <div><strong>۱۲۰+</strong><small>کسب‌وکار</small></div>
+          <div><strong>۱۵+</strong><small>دسته‌بندی</small></div>
+          <div><strong>۱۰۰٪</strong><small>حمایت محلی</small></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="visual-circle"></div>
+        <div class="hero-card">
+          <div class="shop-emoji">☕</div>
+          <h3>کافه‌های محلی</h3>
+          <p>طعم خوب، حمایت بزرگ</p>
+          <span class="status">● کسب‌وکارهای مستقل</span>
+        </div>
+        <div class="floating-note">💚 از محلی‌ها خرید کنیم</div>
+      </div>
+    </section>
+
+    <section class="categories section">
+      <div class="section-heading">
+        <span class="eyebrow">دسته‌بندی‌ها</span>
+        <h2>دنبال چه چیزی هستی؟</h2>
+        <p>با انتخاب یک دسته، کسب‌وکار مناسب خودت را پیدا کن.</p>
+      </div>
+
+      <div class="category-grid">
+        <button class="category active" data-category="all">
+          <span>🌟</span> همه
+        </button>
+        <button class="category" data-category="food">
+          <span>🍰</span> غذا و شیرینی
+        </button>
+        <button class="category" data-category="fashion">
+          <span>👗</span> پوشاک
+        </button>
+        <button class="category" data-category="art">
+          <span>🎨</span> هنر و صنایع دستی
+        </button>
+        <button class="category" data-category="services">
+          <span>💻</span> خدمات
+        </button>
+      </div>
+    </section>
+
+    <section class="businesses section" id="businesses">
+      <div class="section-heading">
+        <span class="eyebrow">انتخاب‌های ما</span>
+        <h2>کسب‌وکارهای دوست‌داشتنی</h2>
+        <p>با کسب‌وکارهای کوچک و خلاق آشنا شو.</p>
+      </div>
+
+      <div class="search-box">
+        <span>🔎</span>
+        <input id="searchInput" type="search"
+          placeholder="نام کسب‌وکار یا خدمات را جست‌وجو کن...">
+      </div>
+
+      <div class="business-grid" id="businessGrid">
+
+        <article class="business-card" data-category="food">
+          <div class="business-image image-one">
+            <span>🍰</span>
+            <span class="tag">محبوب</span>
+          </div>
+          <div class="business-info">
+            <span class="business-type">غذا و شیرینی</span>
+            <h3>شیرینی‌سرای بهار</h3>
+            <p>شیرینی‌های خانگی با مواد تازه و عشق فراوان.</p>
+            <div class="business-footer">
+              <span>📍 مرکز شهر</span>
+              <a href="#contact">مشاهده ←</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="business-card" data-category="fashion">
+          <div class="business-image image-two">
+            <span>👗</span>
+            <span class="tag">جدید</span>
+          </div>
+          <div class="business-info">
+            <span class="business-type">پوشاک</span>
+            <h3>بوتیک رنگین</h3>
+            <p>لباس‌های خاص با طراحی ساده و کیفیت بالا.</p>
+            <div class="business-footer">
+              <span>📍 بازار محلی</span>
+              <a href="#contact">مشاهده ←</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="business-card" data-category="art">
+          <div class="business-image image-three">
+            <span>🧶</span>
+            <span class="tag">دست‌ساز</span>
+          </div>
+          <div class="business-info">
+            <span class="business-type">هنر و صنایع دستی</span>
+            <h3>هنرکده آوا</h3>
+            <p>هدیه‌ها و محصولات دست‌ساز با طرح‌های منحصربه‌فرد.</p>
+            <div class="business-footer">
+              <span>📍 محله هنر</span>
+              <a href="#contact">مشاهده ←</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="business-card" data-category="services">
+          <div class="business-image image-four">
+            <span>💻</span>
+            <span class="tag">خلاقانه</span>
+          </div>
+          <div class="business-info">
+            <span class="business-type">خدمات دیجیتال</span>
+            <h3>استودیو ایده</h3>
+            <p>طراحی سایت و هویت بصری برای کسب‌وکارهای کوچک.</p>
+            <div class="business-footer">
+              <span>📍 خدمات آنلاین</span>
+              <a href="#contact">مشاهده ←</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p id="emptyMessage" class="empty-message" hidden>
+        کسب‌وکاری با این مشخصات پیدا نشد.
+      </p>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-icon">🌱</div>
+      <div>
+        <span class="eyebrow">چرا کسبینو؟</span>
+        <h2>هر کسب‌وکار کوچک، یک داستان بزرگ دارد.</h2>
+        <p>
+          ما باور داریم کسب‌وکارهای کوچک قلب تپنده جامعه هستند.
+          هدف ما این است که مشتریان راحت‌تر آن‌ها را پیدا کنند
+          و فرصت رشد بیشتری داشته باشند.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <span class="eyebrow">به جمع ما بپیوند</span>
+      <h2>کسب‌وکار خودت را معرفی کن</h2>
+      <p>صاحب یک کسب‌وکار کوچک هستی؟ خوشحال می‌شویم بیشتر بشناسیمت.</p>
+      <a class="primary-button"
+         href="mailto:hello@example.com?subject=معرفی%20کسب‌وکار">
+        ✉ ارتباط با ما
+      </a>
+      <small>برای استفاده واقعی، ایمیل نمونه را با ایمیل خودت جایگزین کن.</small>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#">کسبینو<span>.</span></a>
+    <p>حامی رویاهای کوچک و آینده‌های بزرگ 💚</p>
+    <small>© 2026 کسبینو — تمامی حقوق محفوظ است.</small>
+  </footer>
+
+</body>
+</html>
